@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Incluir Cliente</title>
+</head>
+<body>
+    <h2 class="titulo">Incluir Cliente</h2>
+    <form method= "GET" action="SalvarCliente.php">
+        Usuário<input name ="nome"><br>
+        CPF<input name="cpf"><br>
+        Telefone<input name="telefone"><br>
+        CEP<input name="cep"><br>
+        <input type="submit">
+</form>
+</body>
