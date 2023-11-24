@@ -1,0 +1,66 @@
+/* General styling */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Form styling */
+form {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type=text],
+input[type=email],
+input[type=cpf],
+input[type=cep],
+input[type=telefone] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type=submit] {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Button container styling */
+.botaocontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.botao,
+.botaochat {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border: none;
+}
+
+.botaochat {
+  background-color: #28a745;
+}
