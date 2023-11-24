@@ -1,0 +1,63 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para o container do chat */
+.chat-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para as mensagens */
+.message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.own {
+    background-color: #007bff;
+    color: #fff;
+    text-align: right;
+}
+
+.other {
+    background-color: #f1f0f0;
+}
+
+.message-text {
+    word-wrap: break-word;
+}
+
+/* Estilos para a entrada de texto */
+.chat-input {
+    display: flex;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.chat-input button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .chat-container {
+        max-width: 100%;
+    }
+}
